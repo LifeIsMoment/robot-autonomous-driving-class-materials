@@ -1,0 +1,12 @@
+source;share/c_transform/hook/path.ps1
+source;share/c_transform/hook/path.dsv
+source;share/c_transform/hook/path.sh
+source;share/c_transform/hook/pythonpath.ps1
+source;share/c_transform/hook/pythonpath.dsv
+source;share/c_transform/hook/pythonpath.sh
+source;share/c_transform/hook/pythonscriptspath.ps1
+source;share/c_transform/hook/pythonscriptspath.dsv
+source;share/c_transform/hook/pythonscriptspath.sh
+source;share/c_transform/hook/ament_prefix_path.ps1
+source;share/c_transform/hook/ament_prefix_path.dsv
+source;share/c_transform/hook/ament_prefix_path.sh

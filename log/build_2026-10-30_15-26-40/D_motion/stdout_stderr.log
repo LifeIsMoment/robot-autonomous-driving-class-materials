@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/D_motion/D_motion.egg-info
+writing ../../build/D_motion/D_motion.egg-info/PKG-INFO
+writing dependency_links to ../../build/D_motion/D_motion.egg-info/dependency_links.txt
+writing entry points to ../../build/D_motion/D_motion.egg-info/entry_points.txt
+writing requirements to ../../build/D_motion/D_motion.egg-info/requires.txt
+writing top-level names to ../../build/D_motion/D_motion.egg-info/top_level.txt
+writing manifest file '../../build/D_motion/D_motion.egg-info/SOURCES.txt'
+reading manifest file '../../build/D_motion/D_motion.egg-info/SOURCES.txt'
+writing manifest file '../../build/D_motion/D_motion.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/edu19/robot_navigation/colcon_ws/build/D_motion/build
+creating /home/edu19/robot_navigation/colcon_ws/build/D_motion/build/lib
+creating /home/edu19/robot_navigation/colcon_ws/build/D_motion/build/lib/D_motion
+copying D_motion/__init__.py -> /home/edu19/robot_navigation/colcon_ws/build/D_motion/build/lib/D_motion
+copying D_motion/random_motion.py -> /home/edu19/robot_navigation/colcon_ws/build/D_motion/build/lib/D_motion
+running install
+running install_lib
+creating /home/edu19/robot_navigation/colcon_ws/install/D_motion/lib/python3.12/site-packages/D_motion
+copying /home/edu19/robot_navigation/colcon_ws/build/D_motion/build/lib/D_motion/__init__.py -> /home/edu19/robot_navigation/colcon_ws/install/D_motion/lib/python3.12/site-packages/D_motion
+copying /home/edu19/robot_navigation/colcon_ws/build/D_motion/build/lib/D_motion/random_motion.py -> /home/edu19/robot_navigation/colcon_ws/install/D_motion/lib/python3.12/site-packages/D_motion
+byte-compiling /home/edu19/robot_navigation/colcon_ws/install/D_motion/lib/python3.12/site-packages/D_motion/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/edu19/robot_navigation/colcon_ws/install/D_motion/lib/python3.12/site-packages/D_motion/random_motion.py to random_motion.cpython-312.pyc
+running install_data
+creating /home/edu19/robot_navigation/colcon_ws/install/D_motion/share/ament_index
+creating /home/edu19/robot_navigation/colcon_ws/install/D_motion/share/ament_index/resource_index
+creating /home/edu19/robot_navigation/colcon_ws/install/D_motion/share/ament_index/resource_index/packages
+copying resource/D_motion -> /home/edu19/robot_navigation/colcon_ws/install/D_motion/share/ament_index/resource_index/packages
+copying package.xml -> /home/edu19/robot_navigation/colcon_ws/install/D_motion/share/D_motion
+creating /home/edu19/robot_navigation/colcon_ws/install/D_motion/share/D_motion/launch
+copying launch/slam.launch.py -> /home/edu19/robot_navigation/colcon_ws/install/D_motion/share/D_motion/launch
+running install_egg_info
+Copying ../../build/D_motion/D_motion.egg-info to /home/edu19/robot_navigation/colcon_ws/install/D_motion/lib/python3.12/site-packages/D_motion-0.0.0-py3.12.egg-info
+running install_scripts
+Installing random_motion script to /home/edu19/robot_navigation/colcon_ws/install/D_motion/lib/D_motion
+writing list of installed files to '/home/edu19/robot_navigation/colcon_ws/build/D_motion/install.log'

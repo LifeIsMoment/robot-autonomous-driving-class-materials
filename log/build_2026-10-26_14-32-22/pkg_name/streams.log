@@ -1,0 +1,19 @@
+[0.686s] Invoking command in '/home/edu19/robot_navigation/colcon_ws/pkg_name': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/build/pkg_name/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu19/robot_navigation/colcon_ws/install/pkg_name/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pkg_name build --build-base /home/edu19/robot_navigation/colcon_ws/build/pkg_name/build install --record /home/edu19/robot_navigation/colcon_ws/build/pkg_name/install.log --install-scripts $base/lib/pkg_name --single-version-externally-managed install_data
+[0.924s] running egg_info
+[0.943s] writing ../build/pkg_name/pkg_name.egg-info/PKG-INFO
+[0.944s] writing dependency_links to ../build/pkg_name/pkg_name.egg-info/dependency_links.txt
+[0.944s] writing requirements to ../build/pkg_name/pkg_name.egg-info/requires.txt
+[0.944s] writing top-level names to ../build/pkg_name/pkg_name.egg-info/top_level.txt
+[0.980s] reading manifest file '../build/pkg_name/pkg_name.egg-info/SOURCES.txt'
+[0.981s] writing manifest file '../build/pkg_name/pkg_name.egg-info/SOURCES.txt'
+[0.981s] running build
+[0.981s] running build_py
+[0.981s] running install
+[0.986s] running install_lib
+[1.005s] running install_data
+[1.005s] running install_egg_info
+[1.025s] removing '/home/edu19/robot_navigation/colcon_ws/install/pkg_name/lib/python3.12/site-packages/pkg_name-0.0.0-py3.12.egg-info' (and everything under it)
+[1.025s] Copying ../build/pkg_name/pkg_name.egg-info to /home/edu19/robot_navigation/colcon_ws/install/pkg_name/lib/python3.12/site-packages/pkg_name-0.0.0-py3.12.egg-info
+[1.025s] running install_scripts
+[1.143s] writing list of installed files to '/home/edu19/robot_navigation/colcon_ws/build/pkg_name/install.log'
+[1.162s] Invoked command in '/home/edu19/robot_navigation/colcon_ws/pkg_name' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/build/pkg_name/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu19/robot_navigation/colcon_ws/install/pkg_name/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pkg_name build --build-base /home/edu19/robot_navigation/colcon_ws/build/pkg_name/build install --record /home/edu19/robot_navigation/colcon_ws/build/pkg_name/install.log --install-scripts $base/lib/pkg_name --single-version-externally-managed install_data

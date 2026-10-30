@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/B_lidar/B_lidar.egg-info/PKG-INFO
+writing dependency_links to ../../build/B_lidar/B_lidar.egg-info/dependency_links.txt
+writing entry points to ../../build/B_lidar/B_lidar.egg-info/entry_points.txt
+writing requirements to ../../build/B_lidar/B_lidar.egg-info/requires.txt
+writing top-level names to ../../build/B_lidar/B_lidar.egg-info/top_level.txt
+reading manifest file '../../build/B_lidar/B_lidar.egg-info/SOURCES.txt'
+writing manifest file '../../build/B_lidar/B_lidar.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/gazebo_rviz_oa.launch.py -> /home/edu19/robot_navigation/colcon_ws/install/B_lidar/share/B_lidar/launch
+running install_egg_info
+removing '/home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/python3.12/site-packages/B_lidar-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/B_lidar/B_lidar.egg-info to /home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/python3.12/site-packages/B_lidar-0.0.0-py3.12.egg-info
+running install_scripts
+Installing simple_oa script to /home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/B_lidar
+writing list of installed files to '/home/edu19/robot_navigation/colcon_ws/build/B_lidar/install.log'

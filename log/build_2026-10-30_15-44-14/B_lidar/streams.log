@@ -1,0 +1,22 @@
+[2.921s] Invoking command in '/home/edu19/robot_navigation/colcon_ws/src/B_lidar': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/build/B_lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/B_lidar build --build-base /home/edu19/robot_navigation/colcon_ws/build/B_lidar/build install --record /home/edu19/robot_navigation/colcon_ws/build/B_lidar/install.log --install-scripts $base/lib/B_lidar --single-version-externally-managed install_data
+[3.507s] running egg_info
+[3.551s] writing ../../build/B_lidar/B_lidar.egg-info/PKG-INFO
+[3.552s] writing dependency_links to ../../build/B_lidar/B_lidar.egg-info/dependency_links.txt
+[3.554s] writing entry points to ../../build/B_lidar/B_lidar.egg-info/entry_points.txt
+[3.557s] writing requirements to ../../build/B_lidar/B_lidar.egg-info/requires.txt
+[3.558s] writing top-level names to ../../build/B_lidar/B_lidar.egg-info/top_level.txt
+[3.682s] reading manifest file '../../build/B_lidar/B_lidar.egg-info/SOURCES.txt'
+[3.684s] writing manifest file '../../build/B_lidar/B_lidar.egg-info/SOURCES.txt'
+[3.684s] running build
+[3.685s] running build_py
+[3.689s] running install
+[3.709s] running install_lib
+[3.755s] running install_data
+[3.755s] running install_egg_info
+[3.805s] removing '/home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/python3.12/site-packages/B_lidar-0.0.0-py3.12.egg-info' (and everything under it)
+[3.807s] Copying ../../build/B_lidar/B_lidar.egg-info to /home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/python3.12/site-packages/B_lidar-0.0.0-py3.12.egg-info
+[3.809s] running install_scripts
+[4.088s] Installing corner_escape_oa script to /home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/B_lidar
+[4.092s] Installing simple_oa script to /home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/B_lidar
+[4.092s] writing list of installed files to '/home/edu19/robot_navigation/colcon_ws/build/B_lidar/install.log'
+[4.185s] Invoked command in '/home/edu19/robot_navigation/colcon_ws/src/B_lidar' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/build/B_lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/B_lidar build --build-base /home/edu19/robot_navigation/colcon_ws/build/B_lidar/build install --record /home/edu19/robot_navigation/colcon_ws/build/B_lidar/install.log --install-scripts $base/lib/B_lidar --single-version-externally-managed install_data

@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/f_navigation/f_navigation.egg-info
+writing ../../build/f_navigation/f_navigation.egg-info/PKG-INFO
+writing dependency_links to ../../build/f_navigation/f_navigation.egg-info/dependency_links.txt
+writing requirements to ../../build/f_navigation/f_navigation.egg-info/requires.txt
+writing top-level names to ../../build/f_navigation/f_navigation.egg-info/top_level.txt
+writing manifest file '../../build/f_navigation/f_navigation.egg-info/SOURCES.txt'
+reading manifest file '../../build/f_navigation/f_navigation.egg-info/SOURCES.txt'
+writing manifest file '../../build/f_navigation/f_navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/edu19/robot_navigation/colcon_ws/build/f_navigation/build
+creating /home/edu19/robot_navigation/colcon_ws/build/f_navigation/build/lib
+creating /home/edu19/robot_navigation/colcon_ws/build/f_navigation/build/lib/f_navigation
+copying f_navigation/__init__.py -> /home/edu19/robot_navigation/colcon_ws/build/f_navigation/build/lib/f_navigation
+running install
+running install_lib
+creating /home/edu19/robot_navigation/colcon_ws/install/f_navigation/lib/python3.12/site-packages/f_navigation
+copying /home/edu19/robot_navigation/colcon_ws/build/f_navigation/build/lib/f_navigation/__init__.py -> /home/edu19/robot_navigation/colcon_ws/install/f_navigation/lib/python3.12/site-packages/f_navigation
+byte-compiling /home/edu19/robot_navigation/colcon_ws/install/f_navigation/lib/python3.12/site-packages/f_navigation/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/edu19/robot_navigation/colcon_ws/install/f_navigation/share/ament_index
+creating /home/edu19/robot_navigation/colcon_ws/install/f_navigation/share/ament_index/resource_index
+creating /home/edu19/robot_navigation/colcon_ws/install/f_navigation/share/ament_index/resource_index/packages
+copying resource/f_navigation -> /home/edu19/robot_navigation/colcon_ws/install/f_navigation/share/ament_index/resource_index/packages
+copying package.xml -> /home/edu19/robot_navigation/colcon_ws/install/f_navigation/share/f_navigation
+running install_egg_info
+Copying ../../build/f_navigation/f_navigation.egg-info to /home/edu19/robot_navigation/colcon_ws/install/f_navigation/lib/python3.12/site-packages/f_navigation-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/edu19/robot_navigation/colcon_ws/build/f_navigation/install.log'

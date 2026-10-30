@@ -1,0 +1,2 @@
+Invoking command in '/home/edu19/robot_navigation/colcon_ws/build/firmware': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/edu19/robot_navigation/colcon_ws/code/firmware -DCMAKE_INSTALL_PREFIX=/home/edu19/robot_navigation/colcon_ws/install/firmware
+Invoked command in '/home/edu19/robot_navigation/colcon_ws/build/firmware' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/edu19/robot_navigation/colcon_ws/code/firmware -DCMAKE_INSTALL_PREFIX=/home/edu19/robot_navigation/colcon_ws/install/firmware

@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/G_custom_config/G_custom_config.egg-info/PKG-INFO
+writing dependency_links to ../../build/G_custom_config/G_custom_config.egg-info/dependency_links.txt
+writing requirements to ../../build/G_custom_config/G_custom_config.egg-info/requires.txt
+writing top-level names to ../../build/G_custom_config/G_custom_config.egg-info/top_level.txt
+reading manifest file '../../build/G_custom_config/G_custom_config.egg-info/SOURCES.txt'
+writing manifest file '../../build/G_custom_config/G_custom_config.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/online_async_launch.py -> /home/edu19/robot_navigation/colcon_ws/install/G_custom_config/share/G_custom_config/launch
+copying launch/my_world.edit.launch.py -> /home/edu19/robot_navigation/colcon_ws/install/G_custom_config/share/G_custom_config/launch
+copying launch/spawn_turtlebot3.launch.py -> /home/edu19/robot_navigation/colcon_ws/install/G_custom_config/share/G_custom_config/launch
+running install_egg_info
+removing '/home/edu19/robot_navigation/colcon_ws/install/G_custom_config/lib/python3.12/site-packages/G_custom_config-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/G_custom_config/G_custom_config.egg-info to /home/edu19/robot_navigation/colcon_ws/install/G_custom_config/lib/python3.12/site-packages/G_custom_config-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/edu19/robot_navigation/colcon_ws/build/G_custom_config/install.log'

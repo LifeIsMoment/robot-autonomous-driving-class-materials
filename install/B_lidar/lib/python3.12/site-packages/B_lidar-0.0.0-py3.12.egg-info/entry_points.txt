@@ -1,0 +1,3 @@
+[console_scripts]
+corner_escape_oa = B_lidar.corner_escape_oa:main
+simple_oa = B_lidar.simple_oa:main

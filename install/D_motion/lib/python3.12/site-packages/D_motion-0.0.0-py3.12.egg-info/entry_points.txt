@@ -1,0 +1,2 @@
+[console_scripts]
+random_motion = D_motion.random_motion:main

@@ -1,0 +1,51 @@
+[0.776s] Invoking command in '/home/edu19/robot_navigation/colcon_ws/src/A_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/build/a_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/a_pubsub build --build-base /home/edu19/robot_navigation/colcon_ws/build/a_pubsub/build install --record /home/edu19/robot_navigation/colcon_ws/build/a_pubsub/install.log --install-scripts $base/lib/a_pubsub --single-version-externally-managed install_data
+[1.038s] running egg_info
+[1.038s] creating ../../build/a_pubsub/a_pubsub.egg-info
+[1.058s] writing ../../build/a_pubsub/a_pubsub.egg-info/PKG-INFO
+[1.059s] writing dependency_links to ../../build/a_pubsub/a_pubsub.egg-info/dependency_links.txt
+[1.059s] writing entry points to ../../build/a_pubsub/a_pubsub.egg-info/entry_points.txt
+[1.059s] writing requirements to ../../build/a_pubsub/a_pubsub.egg-info/requires.txt
+[1.059s] writing top-level names to ../../build/a_pubsub/a_pubsub.egg-info/top_level.txt
+[1.059s] writing manifest file '../../build/a_pubsub/a_pubsub.egg-info/SOURCES.txt'
+[1.101s] reading manifest file '../../build/a_pubsub/a_pubsub.egg-info/SOURCES.txt'
+[1.102s] writing manifest file '../../build/a_pubsub/a_pubsub.egg-info/SOURCES.txt'
+[1.102s] running build
+[1.103s] running build_py
+[1.103s] creating /home/edu19/robot_navigation/colcon_ws/build/a_pubsub/build
+[1.103s] creating /home/edu19/robot_navigation/colcon_ws/build/a_pubsub/build/lib
+[1.103s] creating /home/edu19/robot_navigation/colcon_ws/build/a_pubsub/build/lib/a_pubsub
+[1.103s] copying A_pubsub/talker.py -> /home/edu19/robot_navigation/colcon_ws/build/a_pubsub/build/lib/a_pubsub
+[1.103s] copying A_pubsub/__init__.py -> /home/edu19/robot_navigation/colcon_ws/build/a_pubsub/build/lib/a_pubsub
+[1.103s] copying A_pubsub/processor.py -> /home/edu19/robot_navigation/colcon_ws/build/a_pubsub/build/lib/a_pubsub
+[1.103s] copying A_pubsub/listener.py -> /home/edu19/robot_navigation/colcon_ws/build/a_pubsub/build/lib/a_pubsub
+[1.103s] copying A_pubsub/publisher.py -> /home/edu19/robot_navigation/colcon_ws/build/a_pubsub/build/lib/a_pubsub
+[1.103s] copying A_pubsub/subscriber.py -> /home/edu19/robot_navigation/colcon_ws/build/a_pubsub/build/lib/a_pubsub
+[1.104s] running install
+[1.109s] running install_lib
+[1.129s] creating /home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages/a_pubsub
+[1.130s] copying /home/edu19/robot_navigation/colcon_ws/build/a_pubsub/build/lib/a_pubsub/talker.py -> /home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages/a_pubsub
+[1.130s] copying /home/edu19/robot_navigation/colcon_ws/build/a_pubsub/build/lib/a_pubsub/__init__.py -> /home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages/a_pubsub
+[1.130s] copying /home/edu19/robot_navigation/colcon_ws/build/a_pubsub/build/lib/a_pubsub/processor.py -> /home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages/a_pubsub
+[1.130s] copying /home/edu19/robot_navigation/colcon_ws/build/a_pubsub/build/lib/a_pubsub/listener.py -> /home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages/a_pubsub
+[1.130s] copying /home/edu19/robot_navigation/colcon_ws/build/a_pubsub/build/lib/a_pubsub/publisher.py -> /home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages/a_pubsub
+[1.130s] copying /home/edu19/robot_navigation/colcon_ws/build/a_pubsub/build/lib/a_pubsub/subscriber.py -> /home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages/a_pubsub
+[1.130s] byte-compiling /home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages/a_pubsub/talker.py to talker.cpython-312.pyc
+[1.131s] byte-compiling /home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages/a_pubsub/__init__.py to __init__.cpython-312.pyc
+[1.131s] byte-compiling /home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages/a_pubsub/processor.py to processor.cpython-312.pyc
+[1.132s] byte-compiling /home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages/a_pubsub/listener.py to listener.cpython-312.pyc
+[1.133s] byte-compiling /home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages/a_pubsub/publisher.py to publisher.cpython-312.pyc
+[1.134s] byte-compiling /home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages/a_pubsub/subscriber.py to subscriber.cpython-312.pyc
+[1.134s] running install_data
+[1.135s] creating /home/edu19/robot_navigation/colcon_ws/install/a_pubsub/share/ament_index
+[1.135s] creating /home/edu19/robot_navigation/colcon_ws/install/a_pubsub/share/ament_index/resource_index
+[1.135s] creating /home/edu19/robot_navigation/colcon_ws/install/a_pubsub/share/ament_index/resource_index/packages
+[1.135s] copying resource/a_pubsub -> /home/edu19/robot_navigation/colcon_ws/install/a_pubsub/share/ament_index/resource_index/packages
+[1.135s] copying package.xml -> /home/edu19/robot_navigation/colcon_ws/install/a_pubsub/share/a_pubsub
+[1.135s] running install_egg_info
+[1.157s] Copying ../../build/a_pubsub/a_pubsub.egg-info to /home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages/a_pubsub-0.0.0-py3.12.egg-info
+[1.158s] running install_scripts
+[1.289s] Installing processor script to /home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/a_pubsub
+[1.290s] Installing publisher script to /home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/a_pubsub
+[1.290s] Installing subscriber script to /home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/a_pubsub
+[1.290s] writing list of installed files to '/home/edu19/robot_navigation/colcon_ws/build/a_pubsub/install.log'
+[1.313s] Invoked command in '/home/edu19/robot_navigation/colcon_ws/src/A_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/build/a_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/a_pubsub build --build-base /home/edu19/robot_navigation/colcon_ws/build/a_pubsub/build install --record /home/edu19/robot_navigation/colcon_ws/build/a_pubsub/install.log --install-scripts $base/lib/a_pubsub --single-version-externally-managed install_data

@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.000662] (-) JobUnselected: {'identifier': 'a_pubsub'}
+[0.001172] (-) JobUnselected: {'identifier': 'c_transform'}
+[0.001846] (-) JobUnselected: {'identifier': 'drive_base_msgs'}
+[0.002002] (-) JobUnselected: {'identifier': 'firmware'}
+[0.002126] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.002214] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.002271] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.002292] (-) JobUnselected: {'identifier': 'pkg_name'}
+[0.002356] (B_lidar) JobQueued: {'identifier': 'B_lidar', 'dependencies': OrderedDict()}
+[0.002393] (B_lidar) JobStarted: {'identifier': 'B_lidar'}
+[0.098975] (-) TimerEvent: {}
+[0.199693] (-) TimerEvent: {}
+[0.303182] (-) TimerEvent: {}
+[0.403701] (-) TimerEvent: {}
+[0.504107] (-) TimerEvent: {}
+[0.604531] (-) TimerEvent: {}
+[0.705064] (-) TimerEvent: {}
+[0.807277] (-) TimerEvent: {}
+[0.907859] (-) TimerEvent: {}
+[1.008372] (-) TimerEvent: {}
+[1.108836] (-) TimerEvent: {}
+[1.209351] (-) TimerEvent: {}
+[1.309889] (-) TimerEvent: {}
+[1.410450] (-) TimerEvent: {}
+[1.511005] (-) TimerEvent: {}
+[1.611499] (-) TimerEvent: {}
+[1.712112] (-) TimerEvent: {}
+[1.812500] (-) TimerEvent: {}
+[1.913131] (-) TimerEvent: {}
+[2.013613] (-) TimerEvent: {}
+[2.114279] (-) TimerEvent: {}
+[2.214907] (-) TimerEvent: {}
+[2.315405] (-) TimerEvent: {}
+[2.415878] (-) TimerEvent: {}
+[2.516388] (-) TimerEvent: {}
+[2.616782] (-) TimerEvent: {}
+[2.717179] (-) TimerEvent: {}
+[2.818328] (-) TimerEvent: {}
+[2.918982] (-) TimerEvent: {}
+[3.019541] (-) TimerEvent: {}
+[3.119192] (B_lidar) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/B_lidar', 'build', '--build-base', '/home/edu19/robot_navigation/colcon_ws/build/B_lidar/build', 'install', '--record', '/home/edu19/robot_navigation/colcon_ws/build/B_lidar/install.log', '--install-scripts', '$base/lib/B_lidar', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/edu19/robot_navigation/colcon_ws/src/B_lidar', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'AUTO_LOCAL_ROUTING': 'false', 'RUBBER_DUCK_AGENT': 'true', 'COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT': 'false', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'AI_AGENT': 'github_copilot_vscode_agent', 'USER': 'edu19', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/lib:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/edu19', 'CHROME_DESKTOP': 'com.microsoft.VSCode.desktop', 'GIT_CONFIG_COUNT': '3', 'DESKTOP_SESSION': 'ubuntu', 'COPILOT_CLI_RUN_AS_NODE': '1', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/com.microsoft.VSCode.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2341', 'COPILOT_CLI': '1', 'SYSTEMD_EXEC_PID': '2706', 'SSH_ASKPASS': '', 'ANTHROPIC_ADVISOR': 'false', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3488', 'COPILOT_HOME': '/home/edu19/.copilot', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'GIT_OPTIONAL_LOCKS': '0', 'COLCON_PREFIX_PATH': '/home/edu19/robot_navigation/colcon_ws/install:/home/edu19/.local/share/Trash/files/DeepTech-Robot-Navigation/install', 'GCM_INTERACTIVE': 'Never', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'edu19', 'JOURNAL_STREAM': '10:15348', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'SKILL_CHAR_BUDGET': '30000', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'edu19', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINML_LOCAL_MODELS': 'false', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'GIT_CONFIG_VALUE_0': 'explicit', 'PATH': '/home/edu19/robot_navigation/colcon_ws/install/c_transform/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/share/code/resources/app/node_modules.asar.unpacked/@vscode/ripgrep-universal/bin/linux-x64:/usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/ripgrep/bin/linux-x64', 'SESSION_MANAGER': 'local/edu19-HP-ZBook-17-G6:@/tmp/.ICE-unix/2663,unix/edu19-HP-ZBook-17-G6:/tmp/.ICE-unix/2663', 'INVOCATION_ID': 'ce60c4f565d841268fc8f09015d64963', 'GIT_CONFIG_VALUE_1': 'never', 'CLAUDE_CODE_DISABLE_PRECOMPACT_SKIP': '1', 'XDG_MENU_PREFIX': 'gnome-', 'GIT_CONFIG_VALUE_2': 'false', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '12', 'AMENT_PREFIX_PATH': '/home/edu19/robot_navigation/colcon_ws/install/pkg_name:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs:/home/edu19/robot_navigation/colcon_ws/install/c_transform:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub:/home/edu19/robot_navigation/colcon_ws/install/B_lidar:/opt/ros/jazzy', 'COPILOT_AGENT_SESSION_ID': '7e85590a-4316-4ec3-a2f6-60401c156c29', 'SHELL': '/bin/bash', 'COPILOT_RUNTIME_PROCESS_FILE_LOGGING': '1', 'GIT_TERMINAL_PROMPT': '0', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GIT_CONFIG_KEY_0': 'safe.bareRepository', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GIT_CONFIG_KEY_1': 'credential.interactive', 'GIT_CONFIG_KEY_2': 'core.fsmonitor', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'COPILOT_MCP_APPS': 'true', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/edu19/robot_navigation/colcon_ws/build/B_lidar', 'AUTO_APPROVAL': 'true', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COPILOT_ENABLE_BUILTIN_GITHUB_MCP': 'true', 'PYTHONPATH': '/home/edu19/robot_navigation/colcon_ws/build/B_lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/pkg_name/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COPILOT_EXP_COPILOT_CLI_EXECUTION_SUBAGENT_MODEL': 'gpt-5.6-luna', 'COLCON': '1', 'COPILOT_CLI_ENABLED_FEATURE_FLAGS': 'SHELL_SPAWN_BACKEND', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[3.123352] (-) TimerEvent: {}
+[3.223749] (-) TimerEvent: {}
+[3.324240] (-) TimerEvent: {}
+[3.424782] (-) TimerEvent: {}
+[3.525358] (-) TimerEvent: {}
+[3.625912] (-) TimerEvent: {}
+[3.726513] (-) TimerEvent: {}
+[3.827275] (-) TimerEvent: {}
+[3.927993] (-) TimerEvent: {}
+[4.011433] (B_lidar) StdoutLine: {'line': b'running egg_info\n'}
+[4.028141] (-) TimerEvent: {}
+[4.060508] (B_lidar) StdoutLine: {'line': b'writing ../../build/B_lidar/B_lidar.egg-info/PKG-INFO\n'}
+[4.062536] (B_lidar) StdoutLine: {'line': b'writing dependency_links to ../../build/B_lidar/B_lidar.egg-info/dependency_links.txt\n'}
+[4.063233] (B_lidar) StdoutLine: {'line': b'writing entry points to ../../build/B_lidar/B_lidar.egg-info/entry_points.txt\n'}
+[4.063825] (B_lidar) StdoutLine: {'line': b'writing requirements to ../../build/B_lidar/B_lidar.egg-info/requires.txt\n'}
+[4.064087] (B_lidar) StdoutLine: {'line': b'writing top-level names to ../../build/B_lidar/B_lidar.egg-info/top_level.txt\n'}
+[4.128431] (-) TimerEvent: {}
+[4.169883] (B_lidar) StdoutLine: {'line': b"reading manifest file '../../build/B_lidar/B_lidar.egg-info/SOURCES.txt'\n"}
+[4.171617] (B_lidar) StdoutLine: {'line': b"writing manifest file '../../build/B_lidar/B_lidar.egg-info/SOURCES.txt'\n"}
+[4.172034] (B_lidar) StdoutLine: {'line': b'running build\n'}
+[4.172206] (B_lidar) StdoutLine: {'line': b'running build_py\n'}
+[4.172848] (B_lidar) StdoutLine: {'line': b'copying B_lidar/corner_escape_oa.py -> /home/edu19/robot_navigation/colcon_ws/build/B_lidar/build/lib/B_lidar\n'}
+[4.173653] (B_lidar) StdoutLine: {'line': b'running install\n'}
+[4.190332] (B_lidar) StdoutLine: {'line': b'running install_lib\n'}
+[4.228638] (-) TimerEvent: {}
+[4.272206] (B_lidar) StdoutLine: {'line': b'copying /home/edu19/robot_navigation/colcon_ws/build/B_lidar/build/lib/B_lidar/corner_escape_oa.py -> /home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/python3.12/site-packages/B_lidar\n'}
+[4.277540] (B_lidar) StdoutLine: {'line': b'byte-compiling /home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/python3.12/site-packages/B_lidar/corner_escape_oa.py to corner_escape_oa.cpython-312.pyc\n'}
+[4.288387] (B_lidar) StdoutLine: {'line': b'running install_data\n'}
+[4.289344] (B_lidar) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.328830] (-) TimerEvent: {}
+[4.334693] (B_lidar) StdoutLine: {'line': b"removing '/home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/python3.12/site-packages/B_lidar-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[4.335352] (B_lidar) StdoutLine: {'line': b'Copying ../../build/B_lidar/B_lidar.egg-info to /home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/python3.12/site-packages/B_lidar-0.0.0-py3.12.egg-info\n'}
+[4.336845] (B_lidar) StdoutLine: {'line': b'running install_scripts\n'}
+[4.429164] (-) TimerEvent: {}
+[4.529972] (-) TimerEvent: {}
+[4.630423] (-) TimerEvent: {}
+[4.730743] (-) TimerEvent: {}
+[4.757233] (B_lidar) StdoutLine: {'line': b'Installing corner_escape_oa script to /home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/B_lidar\n'}
+[4.758268] (B_lidar) StdoutLine: {'line': b'Installing simple_oa script to /home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/B_lidar\n'}
+[4.759148] (B_lidar) StdoutLine: {'line': b"writing list of installed files to '/home/edu19/robot_navigation/colcon_ws/build/B_lidar/install.log'\n"}
+[4.831372] (-) TimerEvent: {}
+[4.932040] (-) TimerEvent: {}
+[5.032439] (-) TimerEvent: {}
+[5.041648] (B_lidar) CommandEnded: {'returncode': 0}
+[5.079011] (B_lidar) JobEnded: {'identifier': 'B_lidar', 'rc': 0}
+[5.081084] (-) EventReactorShutdown: {}

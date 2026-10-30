@@ -1,0 +1,6 @@
+[console_scripts]
+listener = a_pubsub.listener:main
+processor = a_pubsub.processor:main
+publisher = a_pubsub.publisher:main
+subscriber = a_pubsub.subscriber:main
+talker = a_pubsub.talker:main

@@ -1,0 +1,47 @@
+running egg_info
+creating ../../build/c_transform/c_transform.egg-info
+writing ../../build/c_transform/c_transform.egg-info/PKG-INFO
+writing dependency_links to ../../build/c_transform/c_transform.egg-info/dependency_links.txt
+writing entry points to ../../build/c_transform/c_transform.egg-info/entry_points.txt
+writing requirements to ../../build/c_transform/c_transform.egg-info/requires.txt
+writing top-level names to ../../build/c_transform/c_transform.egg-info/top_level.txt
+writing manifest file '../../build/c_transform/c_transform.egg-info/SOURCES.txt'
+reading manifest file '../../build/c_transform/c_transform.egg-info/SOURCES.txt'
+writing manifest file '../../build/c_transform/c_transform.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/edu19/robot_navigation/colcon_ws/build/c_transform/build
+creating /home/edu19/robot_navigation/colcon_ws/build/c_transform/build/lib
+creating /home/edu19/robot_navigation/colcon_ws/build/c_transform/build/lib/c_transform
+copying ./tf_static.py -> /home/edu19/robot_navigation/colcon_ws/build/c_transform/build/lib/c_transform
+copying ./__init__.py -> /home/edu19/robot_navigation/colcon_ws/build/c_transform/build/lib/c_transform
+copying ./tf_listener.py -> /home/edu19/robot_navigation/colcon_ws/build/c_transform/build/lib/c_transform
+copying ./tf_listener_laser.py -> /home/edu19/robot_navigation/colcon_ws/build/c_transform/build/lib/c_transform
+copying ./tf_dynamic.py -> /home/edu19/robot_navigation/colcon_ws/build/c_transform/build/lib/c_transform
+running install
+running install_lib
+creating /home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages/c_transform
+copying /home/edu19/robot_navigation/colcon_ws/build/c_transform/build/lib/c_transform/tf_static.py -> /home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages/c_transform
+copying /home/edu19/robot_navigation/colcon_ws/build/c_transform/build/lib/c_transform/__init__.py -> /home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages/c_transform
+copying /home/edu19/robot_navigation/colcon_ws/build/c_transform/build/lib/c_transform/tf_listener.py -> /home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages/c_transform
+copying /home/edu19/robot_navigation/colcon_ws/build/c_transform/build/lib/c_transform/tf_listener_laser.py -> /home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages/c_transform
+copying /home/edu19/robot_navigation/colcon_ws/build/c_transform/build/lib/c_transform/tf_dynamic.py -> /home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages/c_transform
+byte-compiling /home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages/c_transform/tf_static.py to tf_static.cpython-312.pyc
+byte-compiling /home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages/c_transform/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages/c_transform/tf_listener.py to tf_listener.cpython-312.pyc
+byte-compiling /home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages/c_transform/tf_listener_laser.py to tf_listener_laser.cpython-312.pyc
+byte-compiling /home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages/c_transform/tf_dynamic.py to tf_dynamic.cpython-312.pyc
+running install_data
+creating /home/edu19/robot_navigation/colcon_ws/install/c_transform/share/ament_index
+creating /home/edu19/robot_navigation/colcon_ws/install/c_transform/share/ament_index/resource_index
+creating /home/edu19/robot_navigation/colcon_ws/install/c_transform/share/ament_index/resource_index/packages
+copying resource/c_transform -> /home/edu19/robot_navigation/colcon_ws/install/c_transform/share/ament_index/resource_index/packages
+copying package.xml -> /home/edu19/robot_navigation/colcon_ws/install/c_transform/share/c_transform
+running install_egg_info
+Copying ../../build/c_transform/c_transform.egg-info to /home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages/c_transform-0.0.0-py3.12.egg-info
+running install_scripts
+Installing tf_dynamic script to /home/edu19/robot_navigation/colcon_ws/install/c_transform/bin
+Installing tf_listener script to /home/edu19/robot_navigation/colcon_ws/install/c_transform/bin
+Installing tf_listener_laser script to /home/edu19/robot_navigation/colcon_ws/install/c_transform/bin
+Installing tf_static script to /home/edu19/robot_navigation/colcon_ws/install/c_transform/bin
+writing list of installed files to '/home/edu19/robot_navigation/colcon_ws/build/c_transform/install.log'

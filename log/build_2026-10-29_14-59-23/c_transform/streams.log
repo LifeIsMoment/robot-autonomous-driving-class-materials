@@ -1,0 +1,49 @@
+[1.640s] Invoking command in '/home/edu19/robot_navigation/colcon_ws/src/C_transform': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/build/c_transform/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/c_transform build --build-base /home/edu19/robot_navigation/colcon_ws/build/c_transform/build install --record /home/edu19/robot_navigation/colcon_ws/build/c_transform/install.log --single-version-externally-managed install_data
+[2.200s] running egg_info
+[2.201s] creating ../../build/c_transform/c_transform.egg-info
+[2.235s] writing ../../build/c_transform/c_transform.egg-info/PKG-INFO
+[2.236s] writing dependency_links to ../../build/c_transform/c_transform.egg-info/dependency_links.txt
+[2.236s] writing entry points to ../../build/c_transform/c_transform.egg-info/entry_points.txt
+[2.236s] writing requirements to ../../build/c_transform/c_transform.egg-info/requires.txt
+[2.237s] writing top-level names to ../../build/c_transform/c_transform.egg-info/top_level.txt
+[2.237s] writing manifest file '../../build/c_transform/c_transform.egg-info/SOURCES.txt'
+[2.333s] reading manifest file '../../build/c_transform/c_transform.egg-info/SOURCES.txt'
+[2.335s] writing manifest file '../../build/c_transform/c_transform.egg-info/SOURCES.txt'
+[2.336s] running build
+[2.336s] running build_py
+[2.339s] creating /home/edu19/robot_navigation/colcon_ws/build/c_transform/build
+[2.340s] creating /home/edu19/robot_navigation/colcon_ws/build/c_transform/build/lib
+[2.340s] creating /home/edu19/robot_navigation/colcon_ws/build/c_transform/build/lib/c_transform
+[2.340s] copying ./tf_static.py -> /home/edu19/robot_navigation/colcon_ws/build/c_transform/build/lib/c_transform
+[2.340s] copying ./__init__.py -> /home/edu19/robot_navigation/colcon_ws/build/c_transform/build/lib/c_transform
+[2.340s] copying ./tf_listener.py -> /home/edu19/robot_navigation/colcon_ws/build/c_transform/build/lib/c_transform
+[2.341s] copying ./tf_listener_laser.py -> /home/edu19/robot_navigation/colcon_ws/build/c_transform/build/lib/c_transform
+[2.341s] copying ./tf_dynamic.py -> /home/edu19/robot_navigation/colcon_ws/build/c_transform/build/lib/c_transform
+[2.341s] running install
+[2.351s] running install_lib
+[2.387s] creating /home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages/c_transform
+[2.387s] copying /home/edu19/robot_navigation/colcon_ws/build/c_transform/build/lib/c_transform/tf_static.py -> /home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages/c_transform
+[2.388s] copying /home/edu19/robot_navigation/colcon_ws/build/c_transform/build/lib/c_transform/__init__.py -> /home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages/c_transform
+[2.388s] copying /home/edu19/robot_navigation/colcon_ws/build/c_transform/build/lib/c_transform/tf_listener.py -> /home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages/c_transform
+[2.388s] copying /home/edu19/robot_navigation/colcon_ws/build/c_transform/build/lib/c_transform/tf_listener_laser.py -> /home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages/c_transform
+[2.389s] copying /home/edu19/robot_navigation/colcon_ws/build/c_transform/build/lib/c_transform/tf_dynamic.py -> /home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages/c_transform
+[2.389s] byte-compiling /home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages/c_transform/tf_static.py to tf_static.cpython-312.pyc
+[2.389s] byte-compiling /home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages/c_transform/__init__.py to __init__.cpython-312.pyc
+[2.390s] byte-compiling /home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages/c_transform/tf_listener.py to tf_listener.cpython-312.pyc
+[2.390s] byte-compiling /home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages/c_transform/tf_listener_laser.py to tf_listener_laser.cpython-312.pyc
+[2.391s] byte-compiling /home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages/c_transform/tf_dynamic.py to tf_dynamic.cpython-312.pyc
+[2.392s] running install_data
+[2.393s] creating /home/edu19/robot_navigation/colcon_ws/install/c_transform/share/ament_index
+[2.393s] creating /home/edu19/robot_navigation/colcon_ws/install/c_transform/share/ament_index/resource_index
+[2.393s] creating /home/edu19/robot_navigation/colcon_ws/install/c_transform/share/ament_index/resource_index/packages
+[2.393s] copying resource/c_transform -> /home/edu19/robot_navigation/colcon_ws/install/c_transform/share/ament_index/resource_index/packages
+[2.393s] copying package.xml -> /home/edu19/robot_navigation/colcon_ws/install/c_transform/share/c_transform
+[2.394s] running install_egg_info
+[2.431s] Copying ../../build/c_transform/c_transform.egg-info to /home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages/c_transform-0.0.0-py3.12.egg-info
+[2.433s] running install_scripts
+[2.718s] Installing tf_dynamic script to /home/edu19/robot_navigation/colcon_ws/install/c_transform/bin
+[2.721s] Installing tf_listener script to /home/edu19/robot_navigation/colcon_ws/install/c_transform/bin
+[2.723s] Installing tf_listener_laser script to /home/edu19/robot_navigation/colcon_ws/install/c_transform/bin
+[2.723s] Installing tf_static script to /home/edu19/robot_navigation/colcon_ws/install/c_transform/bin
+[2.723s] writing list of installed files to '/home/edu19/robot_navigation/colcon_ws/build/c_transform/install.log'
+[2.796s] Invoked command in '/home/edu19/robot_navigation/colcon_ws/src/C_transform' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/build/c_transform/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/c_transform build --build-base /home/edu19/robot_navigation/colcon_ws/build/c_transform/build install --record /home/edu19/robot_navigation/colcon_ws/build/c_transform/install.log --single-version-externally-managed install_data

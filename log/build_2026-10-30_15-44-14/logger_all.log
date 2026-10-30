@@ -1,0 +1,1035 @@
+[0.123s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-skip', 'firmware']
+[0.123s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=['firmware'], packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d5ab099a660>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d5ab0ab6fc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d5ab0ab6fc0>>, mixin_verb=('build',))
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.164s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.165s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/edu19/robot_navigation/colcon_ws'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extension 'ros'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extensions ['cmake', 'python']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extension 'cmake'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extension 'python'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extensions ['python_setup_py']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(code) by extension 'python_setup_py'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(code/Arduino) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(code/Arduino) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(code/Arduino) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(code/Arduino) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(code/Arduino) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(code/Arduino) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(code/Arduino) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(code/Arduino) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(code/Arduino) by extension 'ros'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(code/Arduino) by extensions ['cmake', 'python']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(code/Arduino) by extension 'cmake'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(code/Arduino) by extension 'python'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(code/Arduino) by extensions ['python_setup_py']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(code/Arduino) by extension 'python_setup_py'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS) by extension 'ros'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS) by extensions ['cmake', 'python']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS) by extension 'cmake'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS) by extension 'python'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS) by extensions ['python_setup_py']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS) by extension 'python_setup_py'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/A) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/A) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/A) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/A) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/A) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/A) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/A) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/A) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/A) by extension 'ros'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/A) by extensions ['cmake', 'python']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/A) by extension 'cmake'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/A) by extension 'python'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/A) by extensions ['python_setup_py']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/A) by extension 'python_setup_py'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/B) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/B) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/B) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/B) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/B) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/B) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/B) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/B) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/B) by extension 'ros'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/B) by extensions ['cmake', 'python']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/B) by extension 'cmake'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/B) by extension 'python'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/B) by extensions ['python_setup_py']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/B) by extension 'python_setup_py'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/C) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/C) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/C) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/C) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/C) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/C) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/C) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/C) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/C) by extension 'ros'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/C) by extensions ['cmake', 'python']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/C) by extension 'cmake'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/C) by extension 'python'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/C) by extensions ['python_setup_py']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/C) by extension 'python_setup_py'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/D) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/D) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/D) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/D) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/D) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/D) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/D) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/D) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/D) by extension 'ros'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/D) by extensions ['cmake', 'python']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/D) by extension 'cmake'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/D) by extension 'python'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/D) by extensions ['python_setup_py']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/D) by extension 'python_setup_py'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/E) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/E) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/E) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/E) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/E) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/E) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/E) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/E) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/E) by extension 'ros'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/E) by extensions ['cmake', 'python']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/E) by extension 'cmake'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/E) by extension 'python'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/E) by extensions ['python_setup_py']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/E) by extension 'python_setup_py'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/F) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/F) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/F) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/F) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/F) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/F) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/F) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/F) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/F) by extension 'ros'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/F) by extensions ['cmake', 'python']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/F) by extension 'cmake'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/F) by extension 'python'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/F) by extensions ['python_setup_py']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/F) by extension 'python_setup_py'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/G) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/G) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/G) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/G) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/G) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/G) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/G) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/G) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/G) by extension 'ros'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/G) by extensions ['cmake', 'python']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/G) by extension 'cmake'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/G) by extension 'python'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/G) by extensions ['python_setup_py']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/G) by extension 'python_setup_py'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/map) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/map) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/map) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/map) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/map) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/map) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/map) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/map) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/map) by extension 'ros'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/map) by extensions ['cmake', 'python']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/map) by extension 'cmake'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/map) by extension 'python'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/map) by extensions ['python_setup_py']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/map) by extension 'python_setup_py'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/worlds) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/worlds) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/worlds) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/worlds) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/worlds) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/worlds) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/worlds) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/worlds) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/worlds) by extension 'ros'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/worlds) by extensions ['cmake', 'python']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/worlds) by extension 'cmake'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/worlds) by extension 'python'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/worlds) by extensions ['python_setup_py']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(code/ROS/worlds) by extension 'python_setup_py'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(code/firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(code/firmware) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(code/firmware) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(code/firmware) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(code/firmware) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(code/firmware) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(code/firmware) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(code/firmware) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(code/firmware) by extension 'ros'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(code/firmware) by extensions ['cmake', 'python']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(code/firmware) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(code/firmware) by extension 'python'
+[0.207s] DEBUG:colcon.colcon_core.package_identification:Package 'code/firmware' with type 'cmake' and name 'firmware'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extension 'ros'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extensions ['cmake', 'python']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extension 'cmake'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extension 'python'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extensions ['python_setup_py']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(image) by extension 'python_setup_py'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extensions ['cmake', 'python']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'cmake'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'python'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extensions ['python_setup_py']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'python_setup_py'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_name) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_name) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_name) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_name) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_name) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_name) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_name) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_name) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(pkg_name) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'pkg_name' with type 'ros.ament_python' and name 'pkg_name'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/A_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/A_pubsub) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/A_pubsub) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/A_pubsub) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/A_pubsub) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/A_pubsub) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/A_pubsub) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/A_pubsub) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/A_pubsub) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/A_pubsub' with type 'ros.ament_python' and name 'a_pubsub'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/B_lidar) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/B_lidar) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/B_lidar) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/B_lidar) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/B_lidar) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/B_lidar) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/B_lidar) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/B_lidar) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/B_lidar) by extension 'ros'
+[0.214s] DEBUG:colcon.colcon_core.package_identification:Package 'src/B_lidar' with type 'ros.ament_python' and name 'B_lidar'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/C_transform) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/C_transform) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/C_transform) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/C_transform) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/C_transform) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/C_transform) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/C_transform) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/C_transform) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/C_transform) by extension 'ros'
+[0.215s] DEBUG:colcon.colcon_core.package_identification:Package 'src/C_transform' with type 'ros.ament_python' and name 'c_transform'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/D_motion) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/D_motion) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/D_motion) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/D_motion) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/D_motion) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/D_motion) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/D_motion) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/D_motion) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/D_motion) by extension 'ros'
+[0.216s] DEBUG:colcon.colcon_core.package_identification:Package 'src/D_motion' with type 'ros.ament_python' and name 'D_motion'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/E_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/E_gazebo) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/E_gazebo) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/E_gazebo) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/E_gazebo) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/E_gazebo) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/E_gazebo) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/E_gazebo) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/E_gazebo) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'src/E_gazebo' with type 'ros.ament_python' and name 'E_gazebo'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/f_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/f_navigation) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/f_navigation) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/f_navigation) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/f_navigation) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/f_navigation) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/f_navigation) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/f_navigation) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/f_navigation) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f_navigation' with type 'ros.ament_python' and name 'f_navigation'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ros'
+[0.220s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ros'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['cmake', 'python']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'cmake'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['python_setup_py']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python_setup_py'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ros'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['cmake', 'python']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'cmake'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'python'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['python_setup_py']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'python_setup_py'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ros'
+[0.223s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/drive_base/drive_base_msgs' with type 'ros.ament_cmake' and name 'drive_base_msgs'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[0.225s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ros'
+[0.228s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.251s] INFO:colcon.colcon_core.package_selection:Skipping package 'firmware' in 'code/firmware'
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.255s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/edu19/robot_navigation/colcon_ws/install
+[0.257s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/edu19/.local/share/Trash/files/DeepTech-Robot-Navigation/install
+[0.260s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 395 installed packages in /opt/ros/jazzy
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'B_lidar' build argument 'cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'B_lidar' build argument 'cmake_target' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'B_lidar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'B_lidar' build argument 'cmake_clean_cache' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'B_lidar' build argument 'cmake_clean_first' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'B_lidar' build argument 'cmake_force_configure' from command line to 'False'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'B_lidar' build argument 'ament_cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'B_lidar' build argument 'catkin_cmake_args' from command line to 'None'
+[0.326s] Level 5:colcon.colcon_core.verb:set package 'B_lidar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.326s] DEBUG:colcon.colcon_core.verb:Building package 'B_lidar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edu19/robot_navigation/colcon_ws/build/B_lidar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edu19/robot_navigation/colcon_ws/install/B_lidar', 'merge_install': False, 'path': '/home/edu19/robot_navigation/colcon_ws/src/B_lidar', 'symlink_install': False, 'test_result_base': None}
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'D_motion' build argument 'cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'D_motion' build argument 'cmake_target' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'D_motion' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'D_motion' build argument 'cmake_clean_cache' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'D_motion' build argument 'cmake_clean_first' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'D_motion' build argument 'cmake_force_configure' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'D_motion' build argument 'ament_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'D_motion' build argument 'catkin_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'D_motion' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.327s] DEBUG:colcon.colcon_core.verb:Building package 'D_motion' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edu19/robot_navigation/colcon_ws/build/D_motion', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edu19/robot_navigation/colcon_ws/install/D_motion', 'merge_install': False, 'path': '/home/edu19/robot_navigation/colcon_ws/src/D_motion', 'symlink_install': False, 'test_result_base': None}
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'a_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'a_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'a_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'a_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'a_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'a_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'a_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'a_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.327s] Level 5:colcon.colcon_core.verb:set package 'a_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.327s] DEBUG:colcon.colcon_core.verb:Building package 'a_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edu19/robot_navigation/colcon_ws/build/a_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edu19/robot_navigation/colcon_ws/install/a_pubsub', 'merge_install': False, 'path': '/home/edu19/robot_navigation/colcon_ws/src/A_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'c_transform' build argument 'cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'c_transform' build argument 'cmake_target' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'c_transform' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'c_transform' build argument 'cmake_clean_cache' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'c_transform' build argument 'cmake_clean_first' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'c_transform' build argument 'cmake_force_configure' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'c_transform' build argument 'ament_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'c_transform' build argument 'catkin_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'c_transform' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.328s] DEBUG:colcon.colcon_core.verb:Building package 'c_transform' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edu19/robot_navigation/colcon_ws/build/c_transform', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edu19/robot_navigation/colcon_ws/install/c_transform', 'merge_install': False, 'path': '/home/edu19/robot_navigation/colcon_ws/src/C_transform', 'symlink_install': False, 'test_result_base': None}
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_target' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.328s] DEBUG:colcon.colcon_core.verb:Building package 'drive_base_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edu19/robot_navigation/colcon_ws/build/drive_base_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs', 'merge_install': False, 'path': '/home/edu19/robot_navigation/colcon_ws/src/uros/drive_base/drive_base_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'f_navigation' build argument 'cmake_args' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'f_navigation' build argument 'cmake_target' from command line to 'None'
+[0.328s] Level 5:colcon.colcon_core.verb:set package 'f_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'f_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'f_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'f_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'f_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'f_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'f_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.329s] DEBUG:colcon.colcon_core.verb:Building package 'f_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edu19/robot_navigation/colcon_ws/build/f_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edu19/robot_navigation/colcon_ws/install/f_navigation', 'merge_install': False, 'path': '/home/edu19/robot_navigation/colcon_ws/src/f_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.329s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edu19/robot_navigation/colcon_ws/build/micro_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs', 'merge_install': False, 'path': '/home/edu19/robot_navigation/colcon_ws/src/uros/micro_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_first' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_force_configure' from command line to 'False'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'ament_cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.329s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.329s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edu19/robot_navigation/colcon_ws/build/micro_ros_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup', 'merge_install': False, 'path': '/home/edu19/robot_navigation/colcon_ws/src/micro_ros_setup', 'symlink_install': False, 'test_result_base': None}
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'pkg_name' build argument 'cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'pkg_name' build argument 'cmake_target' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'pkg_name' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'pkg_name' build argument 'cmake_clean_cache' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'pkg_name' build argument 'cmake_clean_first' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'pkg_name' build argument 'cmake_force_configure' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'pkg_name' build argument 'ament_cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'pkg_name' build argument 'catkin_cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'pkg_name' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.330s] DEBUG:colcon.colcon_core.verb:Building package 'pkg_name' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edu19/robot_navigation/colcon_ws/build/pkg_name', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edu19/robot_navigation/colcon_ws/install/pkg_name', 'merge_install': False, 'path': '/home/edu19/robot_navigation/colcon_ws/pkg_name', 'symlink_install': False, 'test_result_base': None}
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'E_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'E_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'E_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'E_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'E_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'E_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'E_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'E_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'E_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.330s] DEBUG:colcon.colcon_core.verb:Building package 'E_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edu19/robot_navigation/colcon_ws/build/E_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edu19/robot_navigation/colcon_ws/install/E_gazebo', 'merge_install': False, 'path': '/home/edu19/robot_navigation/colcon_ws/src/E_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.330s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_first' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_force_configure' from command line to 'False'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'ament_cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[0.331s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.331s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edu19/robot_navigation/colcon_ws/build/micro_ros_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent', 'merge_install': False, 'path': '/home/edu19/robot_navigation/colcon_ws/src/uros/micro-ROS-Agent/micro_ros_agent', 'symlink_install': False, 'test_result_base': None}
+[0.331s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.332s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.332s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/edu19/robot_navigation/colcon_ws/src/B_lidar' with build type 'ament_python'
+[0.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('B_lidar', 'ament_prefix_path')
+[0.334s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/B_lidar/share/B_lidar/hook/ament_prefix_path.ps1'
+[0.335s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/B_lidar/share/B_lidar/hook/ament_prefix_path.dsv'
+[0.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/B_lidar/share/B_lidar/hook/ament_prefix_path.sh'
+[0.336s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.336s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.341s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/edu19/robot_navigation/colcon_ws/src/uros/micro_ros_msgs' with build type 'ament_cmake'
+[0.341s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/edu19/robot_navigation/colcon_ws/src/uros/micro_ros_msgs'
+[0.341s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.341s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.345s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/edu19/robot_navigation/colcon_ws/src/D_motion' with build type 'ament_python'
+[0.346s] Level 1:colcon.colcon_core.shell:create_environment_hook('D_motion', 'ament_prefix_path')
+[0.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/D_motion/share/D_motion/hook/ament_prefix_path.ps1'
+[0.347s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/D_motion/share/D_motion/hook/ament_prefix_path.dsv'
+[0.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/D_motion/share/D_motion/hook/ament_prefix_path.sh'
+[0.347s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.347s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.351s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/edu19/robot_navigation/colcon_ws/src/A_pubsub' with build type 'ament_python'
+[0.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('a_pubsub', 'ament_prefix_path')
+[0.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/share/a_pubsub/hook/ament_prefix_path.ps1'
+[0.353s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/share/a_pubsub/hook/ament_prefix_path.dsv'
+[0.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/share/a_pubsub/hook/ament_prefix_path.sh'
+[0.355s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.355s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.361s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/edu19/robot_navigation/colcon_ws/src/C_transform' with build type 'ament_python'
+[0.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('c_transform', 'ament_prefix_path')
+[0.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/c_transform/share/c_transform/hook/ament_prefix_path.ps1'
+[0.361s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/c_transform/share/c_transform/hook/ament_prefix_path.dsv'
+[0.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/c_transform/share/c_transform/hook/ament_prefix_path.sh'
+[0.363s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.363s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.366s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/edu19/robot_navigation/colcon_ws/src/uros/drive_base/drive_base_msgs' with build type 'ament_cmake'
+[0.366s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/edu19/robot_navigation/colcon_ws/src/uros/drive_base/drive_base_msgs'
+[0.367s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.367s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.373s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/edu19/robot_navigation/colcon_ws/src/f_navigation' with build type 'ament_python'
+[0.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('f_navigation', 'ament_prefix_path')
+[0.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/f_navigation/share/f_navigation/hook/ament_prefix_path.ps1'
+[0.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/f_navigation/share/f_navigation/hook/ament_prefix_path.dsv'
+[0.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/f_navigation/share/f_navigation/hook/ament_prefix_path.sh'
+[0.376s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.376s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.379s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/edu19/robot_navigation/colcon_ws/src/micro_ros_setup' with build type 'ament_cmake'
+[0.380s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/edu19/robot_navigation/colcon_ws/src/micro_ros_setup'
+[0.380s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.380s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.384s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/edu19/robot_navigation/colcon_ws/pkg_name' with build type 'ament_python'
+[0.384s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_name', 'ament_prefix_path')
+[0.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/pkg_name/share/pkg_name/hook/ament_prefix_path.ps1'
+[0.386s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/pkg_name/share/pkg_name/hook/ament_prefix_path.dsv'
+[0.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/pkg_name/share/pkg_name/hook/ament_prefix_path.sh'
+[0.387s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.387s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.663s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/edu19/robot_navigation/colcon_ws/src/B_lidar'
+[0.663s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.663s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.670s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edu19/robot_navigation/colcon_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edu19/robot_navigation/colcon_ws/install/pkg_name:/home/edu19/robot_navigation/colcon_ws/install/c_transform:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub:/home/edu19/robot_navigation/colcon_ws/install/B_lidar:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/edu19/robot_navigation/colcon_ws/build/micro_ros_msgs -- -j12 -l12
+[0.979s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/edu19/robot_navigation/colcon_ws/src/D_motion'
+[0.979s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.979s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.236s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/edu19/robot_navigation/colcon_ws/src/A_pubsub'
+[1.236s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.486s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/edu19/robot_navigation/colcon_ws/src/C_transform'
+[1.486s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edu19/robot_navigation/colcon_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edu19/robot_navigation/colcon_ws/install/pkg_name:/home/edu19/robot_navigation/colcon_ws/install/c_transform:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub:/home/edu19/robot_navigation/colcon_ws/install/B_lidar:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/edu19/robot_navigation/colcon_ws/build/drive_base_msgs -- -j12 -l12
+[1.790s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/edu19/robot_navigation/colcon_ws/src/f_navigation'
+[1.790s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.790s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edu19/robot_navigation/colcon_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edu19/robot_navigation/colcon_ws/install/pkg_name:/home/edu19/robot_navigation/colcon_ws/install/c_transform:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub:/home/edu19/robot_navigation/colcon_ws/install/B_lidar:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/edu19/robot_navigation/colcon_ws/build/micro_ros_setup -- -j12 -l12
+[2.082s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/edu19/robot_navigation/colcon_ws/pkg_name'
+[2.082s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.082s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edu19/robot_navigation/colcon_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edu19/robot_navigation/colcon_ws/install/pkg_name:/home/edu19/robot_navigation/colcon_ws/install/c_transform:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub:/home/edu19/robot_navigation/colcon_ws/install/B_lidar:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/edu19/robot_navigation/colcon_ws/build/micro_ros_msgs -- -j12 -l12
+[2.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edu19/robot_navigation/colcon_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edu19/robot_navigation/colcon_ws/install/pkg_name:/home/edu19/robot_navigation/colcon_ws/install/c_transform:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub:/home/edu19/robot_navigation/colcon_ws/install/B_lidar:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/edu19/robot_navigation/colcon_ws/build/micro_ros_msgs
+[2.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edu19/robot_navigation/colcon_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edu19/robot_navigation/colcon_ws/install/pkg_name:/home/edu19/robot_navigation/colcon_ws/install/c_transform:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub:/home/edu19/robot_navigation/colcon_ws/install/B_lidar:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/edu19/robot_navigation/colcon_ws/build/micro_ros_setup -- -j12 -l12
+[2.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edu19/robot_navigation/colcon_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edu19/robot_navigation/colcon_ws/install/pkg_name:/home/edu19/robot_navigation/colcon_ws/install/c_transform:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub:/home/edu19/robot_navigation/colcon_ws/install/B_lidar:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/edu19/robot_navigation/colcon_ws/build/micro_ros_setup
+[2.198s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[2.210s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup' for CMake module files
+[2.215s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup' for CMake config files
+[2.216s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[2.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[2.221s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[2.222s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[2.228s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/lib'
+[2.229s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/bin'
+[2.229s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[2.229s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/lib/python3.12/site-packages'
+[2.230s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/bin'
+[2.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[2.240s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[2.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[2.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[2.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[2.250s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[2.254s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[2.254s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup' for CMake module files
+[2.257s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup' for CMake config files
+[2.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edu19/robot_navigation/colcon_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edu19/robot_navigation/colcon_ws/install/pkg_name:/home/edu19/robot_navigation/colcon_ws/install/c_transform:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub:/home/edu19/robot_navigation/colcon_ws/install/B_lidar:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/edu19/robot_navigation/colcon_ws/build/micro_ros_setup
+[2.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[2.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[2.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[2.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[2.270s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/lib'
+[2.270s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/bin'
+[2.270s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[2.271s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/lib/python3.12/site-packages'
+[2.271s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/bin'
+[2.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[2.273s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[2.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[2.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[2.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[2.276s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[2.278s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[2.279s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs' for CMake module files
+[2.285s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs' for CMake config files
+[2.289s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[2.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[2.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[2.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[2.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edu19/robot_navigation/colcon_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edu19/robot_navigation/colcon_ws/install/pkg_name:/home/edu19/robot_navigation/colcon_ws/install/c_transform:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub:/home/edu19/robot_navigation/colcon_ws/install/B_lidar:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/edu19/robot_navigation/colcon_ws/build/micro_ros_msgs
+[2.300s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/lib'
+[2.300s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[2.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[2.302s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[2.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[2.304s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/bin'
+[2.304s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[2.305s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/lib/python3.12/site-packages'
+[2.305s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'pythonpath')
+[2.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.ps1'
+[2.307s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.dsv'
+[2.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.sh'
+[2.309s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/bin'
+[2.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[2.311s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[2.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[2.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[2.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[2.314s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[2.315s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[2.316s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs' for CMake module files
+[2.317s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs' for CMake config files
+[2.317s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[2.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[2.319s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[2.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[2.320s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/lib'
+[2.321s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[2.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[2.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[2.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[2.323s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/bin'
+[2.323s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[2.324s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/lib/python3.12/site-packages'
+[2.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'pythonpath')
+[2.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.ps1'
+[2.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.dsv'
+[2.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.sh'
+[2.329s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/bin'
+[2.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[2.332s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[2.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[2.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[2.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[2.336s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[2.337s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/edu19/robot_navigation/colcon_ws/src/uros/micro-ROS-Agent/micro_ros_agent' with build type 'ament_cmake'
+[2.338s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/edu19/robot_navigation/colcon_ws/src/uros/micro-ROS-Agent/micro_ros_agent'
+[2.338s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.338s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edu19/robot_navigation/colcon_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/edu19/robot_navigation/colcon_ws/install/pkg_name:/home/edu19/robot_navigation/colcon_ws/install/c_transform:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub:/home/edu19/robot_navigation/colcon_ws/install/B_lidar:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/lib:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/pkg_name/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/edu19/robot_navigation/colcon_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent
+[3.244s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: upload_docs, test, compile_catalog, bdist_egg, update_catalog, install_data, bdist_wheel, extract_messages, easy_install, install, editable_wheel, symlink_data, develop, build, egg_info, clean, register, install_egg_info, install_lib, rotate, install_headers, bdist_rpm, upload, build_scripts, dist_info, setopt, check, init_catalog, install_scripts, saveopts, bdist, build_ext, sdist, build_clib, bdist_dumb, build_py, alias
+[3.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edu19/robot_navigation/colcon_ws/src/B_lidar': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/build/B_lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/B_lidar build --build-base /home/edu19/robot_navigation/colcon_ws/build/B_lidar/build install --record /home/edu19/robot_navigation/colcon_ws/build/B_lidar/install.log --install-scripts $base/lib/B_lidar --single-version-externally-managed install_data
+[3.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edu19/robot_navigation/colcon_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/edu19/robot_navigation/colcon_ws/install/pkg_name:/home/edu19/robot_navigation/colcon_ws/install/c_transform:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub:/home/edu19/robot_navigation/colcon_ws/install/B_lidar:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/lib:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/pkg_name/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/edu19/robot_navigation/colcon_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent
+[3.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edu19/robot_navigation/colcon_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/edu19/robot_navigation/colcon_ws/install/pkg_name:/home/edu19/robot_navigation/colcon_ws/install/c_transform:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub:/home/edu19/robot_navigation/colcon_ws/install/B_lidar:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/lib:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/pkg_name/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/edu19/robot_navigation/colcon_ws/build/micro_ros_agent -- -j12 -l12
+[3.359s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: upload_docs, test, compile_catalog, bdist_egg, update_catalog, install_data, bdist_wheel, extract_messages, easy_install, install, editable_wheel, symlink_data, develop, build, egg_info, clean, register, install_egg_info, install_lib, rotate, install_headers, bdist_rpm, upload, build_scripts, dist_info, setopt, check, init_catalog, install_scripts, saveopts, bdist, build_ext, sdist, build_clib, bdist_dumb, build_py, alias
+[3.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edu19/robot_navigation/colcon_ws/src/A_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/build/a_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/a_pubsub build --build-base /home/edu19/robot_navigation/colcon_ws/build/a_pubsub/build install --record /home/edu19/robot_navigation/colcon_ws/build/a_pubsub/install.log --install-scripts $base/lib/a_pubsub --single-version-externally-managed install_data
+[3.427s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: upload_docs, test, compile_catalog, bdist_egg, update_catalog, install_data, bdist_wheel, extract_messages, easy_install, install, editable_wheel, symlink_data, develop, build, egg_info, clean, register, install_egg_info, install_lib, rotate, install_headers, bdist_rpm, upload, build_scripts, dist_info, setopt, check, init_catalog, install_scripts, saveopts, bdist, build_ext, sdist, build_clib, bdist_dumb, build_py, alias
+[3.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edu19/robot_navigation/colcon_ws/src/f_navigation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/build/f_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu19/robot_navigation/colcon_ws/install/f_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/f_navigation build --build-base /home/edu19/robot_navigation/colcon_ws/build/f_navigation/build install --record /home/edu19/robot_navigation/colcon_ws/build/f_navigation/install.log --install-scripts $base/lib/f_navigation --single-version-externally-managed install_data
+[3.450s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: upload_docs, test, compile_catalog, bdist_egg, update_catalog, install_data, bdist_wheel, extract_messages, easy_install, install, editable_wheel, symlink_data, develop, build, egg_info, clean, register, install_egg_info, install_lib, rotate, install_headers, bdist_rpm, upload, build_scripts, dist_info, setopt, check, init_catalog, install_scripts, saveopts, bdist, build_ext, sdist, build_clib, bdist_dumb, build_py, alias
+[3.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edu19/robot_navigation/colcon_ws/src/D_motion': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/build/D_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu19/robot_navigation/colcon_ws/install/D_motion/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/D_motion build --build-base /home/edu19/robot_navigation/colcon_ws/build/D_motion/build install --record /home/edu19/robot_navigation/colcon_ws/build/D_motion/install.log --install-scripts $base/lib/D_motion --single-version-externally-managed install_data
+[3.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edu19/robot_navigation/colcon_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/edu19/robot_navigation/colcon_ws/install/pkg_name:/home/edu19/robot_navigation/colcon_ws/install/c_transform:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub:/home/edu19/robot_navigation/colcon_ws/install/B_lidar:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/lib:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/pkg_name/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/edu19/robot_navigation/colcon_ws/build/micro_ros_agent -- -j12 -l12
+[3.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edu19/robot_navigation/colcon_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/edu19/robot_navigation/colcon_ws/install/pkg_name:/home/edu19/robot_navigation/colcon_ws/install/c_transform:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub:/home/edu19/robot_navigation/colcon_ws/install/B_lidar:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/lib:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/pkg_name/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/edu19/robot_navigation/colcon_ws/build/micro_ros_agent
+[3.487s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: upload_docs, test, compile_catalog, bdist_egg, update_catalog, install_data, bdist_wheel, extract_messages, easy_install, install, editable_wheel, symlink_data, develop, build, egg_info, clean, register, install_egg_info, install_lib, rotate, install_headers, bdist_rpm, upload, build_scripts, dist_info, setopt, check, init_catalog, install_scripts, saveopts, bdist, build_ext, sdist, build_clib, bdist_dumb, build_py, alias
+[3.492s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[3.493s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent' for CMake module files
+[3.494s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent' for CMake config files
+[3.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[3.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[3.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edu19/robot_navigation/colcon_ws/src/C_transform': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/build/c_transform/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/c_transform build --build-base /home/edu19/robot_navigation/colcon_ws/build/c_transform/build install --record /home/edu19/robot_navigation/colcon_ws/build/c_transform/install.log --install-scripts $base/lib/c_transform --single-version-externally-managed install_data
+[3.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edu19/robot_navigation/colcon_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/edu19/robot_navigation/colcon_ws/install/pkg_name:/home/edu19/robot_navigation/colcon_ws/install/c_transform:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub:/home/edu19/robot_navigation/colcon_ws/install/B_lidar:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/lib:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/pkg_name/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/edu19/robot_navigation/colcon_ws/build/micro_ros_agent
+[3.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[3.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[3.502s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/lib'
+[3.502s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[3.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[3.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[3.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[3.506s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/bin'
+[3.506s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[3.507s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/lib/python3.12/site-packages'
+[3.508s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/bin'
+[3.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[3.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[3.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[3.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[3.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[3.513s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[3.516s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[3.517s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent' for CMake module files
+[3.518s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent' for CMake config files
+[3.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[3.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[3.521s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[3.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[3.526s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/lib'
+[3.526s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[3.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[3.527s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[3.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[3.530s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/bin'
+[3.531s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[3.531s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/lib/python3.12/site-packages'
+[3.532s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/bin'
+[3.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[3.534s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[3.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[3.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[3.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[3.539s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[3.553s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: upload_docs, test, compile_catalog, bdist_egg, update_catalog, install_data, bdist_wheel, extract_messages, easy_install, install, editable_wheel, symlink_data, develop, build, egg_info, clean, register, install_egg_info, install_lib, rotate, install_headers, bdist_rpm, upload, build_scripts, dist_info, setopt, check, init_catalog, install_scripts, saveopts, bdist, build_ext, sdist, build_clib, bdist_dumb, build_py, alias
+[3.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edu19/robot_navigation/colcon_ws/pkg_name': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/build/pkg_name/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu19/robot_navigation/colcon_ws/install/pkg_name/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pkg_name build --build-base /home/edu19/robot_navigation/colcon_ws/build/pkg_name/build install --record /home/edu19/robot_navigation/colcon_ws/build/pkg_name/install.log --install-scripts $base/lib/pkg_name --single-version-externally-managed install_data
+[4.515s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/B_lidar' for CMake module files
+[4.518s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edu19/robot_navigation/colcon_ws/src/B_lidar' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/build/B_lidar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/B_lidar build --build-base /home/edu19/robot_navigation/colcon_ws/build/B_lidar/build install --record /home/edu19/robot_navigation/colcon_ws/build/B_lidar/install.log --install-scripts $base/lib/B_lidar --single-version-externally-managed install_data
+[4.519s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/B_lidar' for CMake config files
+[4.520s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib'
+[4.520s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/B_lidar/bin'
+[4.520s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/pkgconfig/B_lidar.pc'
+[4.520s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/python3.12/site-packages'
+[4.521s] Level 1:colcon.colcon_core.shell:create_environment_hook('B_lidar', 'pythonpath')
+[4.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/B_lidar/share/B_lidar/hook/pythonpath.ps1'
+[4.529s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/B_lidar/share/B_lidar/hook/pythonpath.dsv'
+[4.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/B_lidar/share/B_lidar/hook/pythonpath.sh'
+[4.531s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/B_lidar/bin'
+[4.531s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(B_lidar)
+[4.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/B_lidar/share/B_lidar/package.ps1'
+[4.539s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edu19/robot_navigation/colcon_ws/install/B_lidar/share/B_lidar/package.dsv'
+[4.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/B_lidar/share/B_lidar/package.sh'
+[4.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/B_lidar/share/B_lidar/package.bash'
+[4.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/B_lidar/share/B_lidar/package.zsh'
+[4.549s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edu19/robot_navigation/colcon_ws/install/B_lidar/share/colcon-core/packages/B_lidar)
+[4.549s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/edu19/robot_navigation/colcon_ws/src/E_gazebo' with build type 'ament_python'
+[4.552s] Level 1:colcon.colcon_core.shell:create_environment_hook('E_gazebo', 'ament_prefix_path')
+[4.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/E_gazebo/share/E_gazebo/hook/ament_prefix_path.ps1'
+[4.554s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/E_gazebo/share/E_gazebo/hook/ament_prefix_path.dsv'
+[4.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/E_gazebo/share/E_gazebo/hook/ament_prefix_path.sh'
+[4.559s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.560s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.203s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/edu19/robot_navigation/colcon_ws/src/E_gazebo'
+[5.203s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.203s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.213s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/D_motion' for CMake module files
+[5.214s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/D_motion' for CMake config files
+[5.216s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/D_motion/lib'
+[5.216s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/D_motion/bin'
+[5.216s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/D_motion/lib/pkgconfig/D_motion.pc'
+[5.216s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/D_motion/lib/python3.12/site-packages'
+[5.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('D_motion', 'pythonpath')
+[5.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/D_motion/share/D_motion/hook/pythonpath.ps1'
+[5.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/D_motion/share/D_motion/hook/pythonpath.dsv'
+[5.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/D_motion/share/D_motion/hook/pythonpath.sh'
+[5.222s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/D_motion/bin'
+[5.222s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(D_motion)
+[5.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/D_motion/share/D_motion/package.ps1'
+[5.224s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edu19/robot_navigation/colcon_ws/install/D_motion/share/D_motion/package.dsv'
+[5.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/D_motion/share/D_motion/package.sh'
+[5.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/D_motion/share/D_motion/package.bash'
+[5.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/D_motion/share/D_motion/package.zsh'
+[5.226s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edu19/robot_navigation/colcon_ws/install/D_motion/share/colcon-core/packages/D_motion)
+[5.227s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/pkg_name' for CMake module files
+[5.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edu19/robot_navigation/colcon_ws/src/D_motion' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/build/D_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu19/robot_navigation/colcon_ws/install/D_motion/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/D_motion build --build-base /home/edu19/robot_navigation/colcon_ws/build/D_motion/build install --record /home/edu19/robot_navigation/colcon_ws/build/D_motion/install.log --install-scripts $base/lib/D_motion --single-version-externally-managed install_data
+[5.228s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/pkg_name' for CMake config files
+[5.229s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/pkg_name/lib'
+[5.229s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/pkg_name/bin'
+[5.230s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/pkg_name/lib/pkgconfig/pkg_name.pc'
+[5.230s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/pkg_name/lib/python3.12/site-packages'
+[5.231s] Level 1:colcon.colcon_core.shell:create_environment_hook('pkg_name', 'pythonpath')
+[5.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/pkg_name/share/pkg_name/hook/pythonpath.ps1'
+[5.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edu19/robot_navigation/colcon_ws/pkg_name' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/build/pkg_name/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu19/robot_navigation/colcon_ws/install/pkg_name/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pkg_name build --build-base /home/edu19/robot_navigation/colcon_ws/build/pkg_name/build install --record /home/edu19/robot_navigation/colcon_ws/build/pkg_name/install.log --install-scripts $base/lib/pkg_name --single-version-externally-managed install_data
+[5.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/pkg_name/share/pkg_name/hook/pythonpath.dsv'
+[5.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/pkg_name/share/pkg_name/hook/pythonpath.sh'
+[5.238s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/pkg_name/bin'
+[5.238s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pkg_name)
+[5.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/pkg_name/share/pkg_name/package.ps1'
+[5.240s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edu19/robot_navigation/colcon_ws/install/pkg_name/share/pkg_name/package.dsv'
+[5.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/pkg_name/share/pkg_name/package.sh'
+[5.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/pkg_name/share/pkg_name/package.bash'
+[5.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/pkg_name/share/pkg_name/package.zsh'
+[5.243s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edu19/robot_navigation/colcon_ws/install/pkg_name/share/colcon-core/packages/pkg_name)
+[5.244s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/a_pubsub' for CMake module files
+[5.247s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/a_pubsub' for CMake config files
+[5.248s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib'
+[5.248s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/bin'
+[5.248s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/pkgconfig/a_pubsub.pc'
+[5.249s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages'
+[5.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('a_pubsub', 'pythonpath')
+[5.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/share/a_pubsub/hook/pythonpath.ps1'
+[5.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edu19/robot_navigation/colcon_ws/src/A_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/build/a_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/a_pubsub build --build-base /home/edu19/robot_navigation/colcon_ws/build/a_pubsub/build install --record /home/edu19/robot_navigation/colcon_ws/build/a_pubsub/install.log --install-scripts $base/lib/a_pubsub --single-version-externally-managed install_data
+[5.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/share/a_pubsub/hook/pythonpath.dsv'
+[5.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/share/a_pubsub/hook/pythonpath.sh'
+[5.254s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/bin'
+[5.255s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(a_pubsub)
+[5.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/share/a_pubsub/package.ps1'
+[5.257s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/share/a_pubsub/package.dsv'
+[5.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/share/a_pubsub/package.sh'
+[5.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/share/a_pubsub/package.bash'
+[5.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/share/a_pubsub/package.zsh'
+[5.260s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/share/colcon-core/packages/a_pubsub)
+[5.261s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/f_navigation' for CMake module files
+[5.262s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/f_navigation' for CMake config files
+[5.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edu19/robot_navigation/colcon_ws/src/f_navigation' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/build/f_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu19/robot_navigation/colcon_ws/install/f_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/f_navigation build --build-base /home/edu19/robot_navigation/colcon_ws/build/f_navigation/build install --record /home/edu19/robot_navigation/colcon_ws/build/f_navigation/install.log --install-scripts $base/lib/f_navigation --single-version-externally-managed install_data
+[5.268s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/f_navigation/lib'
+[5.270s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/f_navigation/bin'
+[5.270s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/f_navigation/lib/pkgconfig/f_navigation.pc'
+[5.271s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/f_navigation/lib/python3.12/site-packages'
+[5.271s] Level 1:colcon.colcon_core.shell:create_environment_hook('f_navigation', 'pythonpath')
+[5.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/f_navigation/share/f_navigation/hook/pythonpath.ps1'
+[5.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/f_navigation/share/f_navigation/hook/pythonpath.dsv'
+[5.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/f_navigation/share/f_navigation/hook/pythonpath.sh'
+[5.276s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/f_navigation/bin'
+[5.276s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(f_navigation)
+[5.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/f_navigation/share/f_navigation/package.ps1'
+[5.278s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edu19/robot_navigation/colcon_ws/install/f_navigation/share/f_navigation/package.dsv'
+[5.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/f_navigation/share/f_navigation/package.sh'
+[5.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/f_navigation/share/f_navigation/package.bash'
+[5.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/f_navigation/share/f_navigation/package.zsh'
+[5.285s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edu19/robot_navigation/colcon_ws/install/f_navigation/share/colcon-core/packages/f_navigation)
+[5.287s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/c_transform' for CMake module files
+[5.291s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/c_transform' for CMake config files
+[5.292s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/c_transform/lib'
+[5.292s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/c_transform/bin'
+[5.292s] Level 1:colcon.colcon_core.shell:create_environment_hook('c_transform', 'path')
+[5.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/c_transform/share/c_transform/hook/path.ps1'
+[5.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/c_transform/share/c_transform/hook/path.dsv'
+[5.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edu19/robot_navigation/colcon_ws/src/C_transform' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/build/c_transform/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/c_transform build --build-base /home/edu19/robot_navigation/colcon_ws/build/c_transform/build install --record /home/edu19/robot_navigation/colcon_ws/build/c_transform/install.log --install-scripts $base/lib/c_transform --single-version-externally-managed install_data
+[5.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/c_transform/share/c_transform/hook/path.sh'
+[5.297s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/pkgconfig/c_transform.pc'
+[5.299s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages'
+[5.299s] Level 1:colcon.colcon_core.shell:create_environment_hook('c_transform', 'pythonpath')
+[5.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/c_transform/share/c_transform/hook/pythonpath.ps1'
+[5.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/c_transform/share/c_transform/hook/pythonpath.dsv'
+[5.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/c_transform/share/c_transform/hook/pythonpath.sh'
+[5.303s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/c_transform/bin'
+[5.304s] Level 1:colcon.colcon_core.shell:create_environment_hook('c_transform', 'pythonscriptspath')
+[5.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/c_transform/share/c_transform/hook/pythonscriptspath.ps1'
+[5.305s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/c_transform/share/c_transform/hook/pythonscriptspath.dsv'
+[5.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/c_transform/share/c_transform/hook/pythonscriptspath.sh'
+[5.307s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(c_transform)
+[5.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/c_transform/share/c_transform/package.ps1'
+[5.311s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edu19/robot_navigation/colcon_ws/install/c_transform/share/c_transform/package.dsv'
+[5.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/c_transform/share/c_transform/package.sh'
+[5.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/c_transform/share/c_transform/package.bash'
+[5.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/c_transform/share/c_transform/package.zsh'
+[5.314s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edu19/robot_navigation/colcon_ws/install/c_transform/share/colcon-core/packages/c_transform)
+[6.866s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: upload_docs, test, compile_catalog, bdist_egg, update_catalog, install_data, bdist_wheel, extract_messages, easy_install, install, editable_wheel, symlink_data, develop, build, egg_info, clean, register, install_egg_info, install_lib, rotate, install_headers, bdist_rpm, upload, build_scripts, dist_info, setopt, check, init_catalog, install_scripts, saveopts, bdist, build_ext, sdist, build_clib, bdist_dumb, build_py, alias
+[6.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edu19/robot_navigation/colcon_ws/src/E_gazebo': AMENT_PREFIX_PATH=/home/edu19/robot_navigation/colcon_ws/install/B_lidar:/home/edu19/robot_navigation/colcon_ws/install/pkg_name:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs:/home/edu19/robot_navigation/colcon_ws/install/c_transform:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/build/E_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu19/robot_navigation/colcon_ws/install/E_gazebo/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/pkg_name/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/E_gazebo build --build-base /home/edu19/robot_navigation/colcon_ws/build/E_gazebo/build install --record /home/edu19/robot_navigation/colcon_ws/build/E_gazebo/install.log --install-scripts $base/lib/E_gazebo --single-version-externally-managed install_data
+[7.677s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/E_gazebo' for CMake module files
+[7.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edu19/robot_navigation/colcon_ws/src/E_gazebo' returned '0': AMENT_PREFIX_PATH=/home/edu19/robot_navigation/colcon_ws/install/B_lidar:/home/edu19/robot_navigation/colcon_ws/install/pkg_name:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_setup:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_agent:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs:/home/edu19/robot_navigation/colcon_ws/install/c_transform:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/build/E_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu19/robot_navigation/colcon_ws/install/E_gazebo/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/B_lidar/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/pkg_name/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/c_transform/lib/python3.12/site-packages:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/E_gazebo build --build-base /home/edu19/robot_navigation/colcon_ws/build/E_gazebo/build install --record /home/edu19/robot_navigation/colcon_ws/build/E_gazebo/install.log --install-scripts $base/lib/E_gazebo --single-version-externally-managed install_data
+[7.678s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/E_gazebo' for CMake config files
+[7.678s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/E_gazebo/lib'
+[7.678s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/E_gazebo/bin'
+[7.678s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/E_gazebo/lib/pkgconfig/E_gazebo.pc'
+[7.679s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/E_gazebo/lib/python3.12/site-packages'
+[7.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('E_gazebo', 'pythonpath')
+[7.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/E_gazebo/share/E_gazebo/hook/pythonpath.ps1'
+[7.680s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/E_gazebo/share/E_gazebo/hook/pythonpath.dsv'
+[7.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/E_gazebo/share/E_gazebo/hook/pythonpath.sh'
+[7.681s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/E_gazebo/bin'
+[7.681s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(E_gazebo)
+[7.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/E_gazebo/share/E_gazebo/package.ps1'
+[7.682s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edu19/robot_navigation/colcon_ws/install/E_gazebo/share/E_gazebo/package.dsv'
+[7.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/E_gazebo/share/E_gazebo/package.sh'
+[7.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/E_gazebo/share/E_gazebo/package.bash'
+[7.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/E_gazebo/share/E_gazebo/package.zsh'
+[7.684s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edu19/robot_navigation/colcon_ws/install/E_gazebo/share/colcon-core/packages/E_gazebo)
+[8.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edu19/robot_navigation/colcon_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edu19/robot_navigation/colcon_ws/install/pkg_name:/home/edu19/robot_navigation/colcon_ws/install/c_transform:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub:/home/edu19/robot_navigation/colcon_ws/install/B_lidar:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/edu19/robot_navigation/colcon_ws/build/drive_base_msgs -- -j12 -l12
+[8.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/edu19/robot_navigation/colcon_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edu19/robot_navigation/colcon_ws/install/pkg_name:/home/edu19/robot_navigation/colcon_ws/install/c_transform:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub:/home/edu19/robot_navigation/colcon_ws/install/B_lidar:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/edu19/robot_navigation/colcon_ws/build/drive_base_msgs
+[9.025s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_base_msgs)
+[9.025s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs' for CMake module files
+[9.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/edu19/robot_navigation/colcon_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/edu19/robot_navigation/colcon_ws/install/pkg_name:/home/edu19/robot_navigation/colcon_ws/install/c_transform:/home/edu19/robot_navigation/colcon_ws/install/a_pubsub:/home/edu19/robot_navigation/colcon_ws/install/B_lidar:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/edu19/robot_navigation/colcon_ws/build/drive_base_msgs
+[9.026s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs' for CMake config files
+[9.026s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'cmake_prefix_path')
+[9.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.ps1'
+[9.027s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.dsv'
+[9.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.sh'
+[9.027s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/lib'
+[9.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'ld_library_path_lib')
+[9.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.ps1'
+[9.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.dsv'
+[9.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.sh'
+[9.029s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/bin'
+[9.029s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/lib/pkgconfig/drive_base_msgs.pc'
+[9.029s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/lib/python3.12/site-packages'
+[9.029s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'pythonpath')
+[9.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.ps1'
+[9.030s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.dsv'
+[9.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.sh'
+[9.031s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/bin'
+[9.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/package.ps1'
+[9.032s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/package.dsv'
+[9.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/package.sh'
+[9.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/package.bash'
+[9.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/package.zsh'
+[9.033s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/colcon-core/packages/drive_base_msgs)
+[9.034s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_base_msgs)
+[9.034s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs' for CMake module files
+[9.035s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs' for CMake config files
+[9.035s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'cmake_prefix_path')
+[9.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.ps1'
+[9.036s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.dsv'
+[9.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.sh'
+[9.037s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/lib'
+[9.037s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'ld_library_path_lib')
+[9.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.ps1'
+[9.038s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.dsv'
+[9.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.sh'
+[9.039s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/bin'
+[9.039s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/lib/pkgconfig/drive_base_msgs.pc'
+[9.039s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/lib/python3.12/site-packages'
+[9.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'pythonpath')
+[9.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.ps1'
+[9.040s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.dsv'
+[9.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.sh'
+[9.040s] Level 1:colcon.colcon_core.environment:checking '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/bin'
+[9.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/package.ps1'
+[9.041s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/package.dsv'
+[9.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/package.sh'
+[9.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/package.bash'
+[9.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/drive_base_msgs/package.zsh'
+[9.043s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/edu19/robot_navigation/colcon_ws/install/drive_base_msgs/share/colcon-core/packages/drive_base_msgs)
+[9.043s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.043s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.043s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.043s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.052s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.052s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.052s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.062s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.062s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/edu19/robot_navigation/colcon_ws/install/local_setup.ps1'
+[9.063s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/edu19/robot_navigation/colcon_ws/install/_local_setup_util_ps1.py'
+[9.064s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/edu19/robot_navigation/colcon_ws/install/setup.ps1'
+[9.066s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/edu19/robot_navigation/colcon_ws/install/local_setup.sh'
+[9.066s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/edu19/robot_navigation/colcon_ws/install/_local_setup_util_sh.py'
+[9.066s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/edu19/robot_navigation/colcon_ws/install/setup.sh'
+[9.067s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/edu19/robot_navigation/colcon_ws/install/local_setup.bash'
+[9.068s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/edu19/robot_navigation/colcon_ws/install/setup.bash'
+[9.068s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/edu19/robot_navigation/colcon_ws/install/local_setup.zsh'
+[9.069s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/edu19/robot_navigation/colcon_ws/install/setup.zsh'

@@ -1,0 +1,1 @@
+/home/edu19/robot_navigation/colcon_ws/src/micro_ros_setup/scripts/yaml_filter.py

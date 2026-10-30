@@ -1,0 +1,5 @@
+[console_scripts]
+tf_dynamic = c_transform.tf_dynamic:main
+tf_listener = c_transform.tf_listener:main
+tf_listener_laser = c_transform.tf_listener_laser:main
+tf_static = c_transform.tf_static:main

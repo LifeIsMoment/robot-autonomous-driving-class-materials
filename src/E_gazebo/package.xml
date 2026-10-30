@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>E_gazebo</name>
+  <version>0.0.0</version>
+  <description>Custom TurtleBot3 Gazebo worlds and maps</description>
+  <maintainer email="edu19@todo.todo">edu19</maintainer>
+  <license>TODO: License declaration</license>
+
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>B_lidar</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>ros_gz_sim</exec_depend>
+  <exec_depend>slam_toolbox</exec_depend>
+  <exec_depend>turtlebot3_gazebo</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

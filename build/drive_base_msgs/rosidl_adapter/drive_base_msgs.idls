@@ -1,0 +1,4 @@
+/home/edu19/robot_navigation/colcon_ws/build/drive_base_msgs/rosidl_adapter/drive_base_msgs:msg/CommandHeader.idl
+/home/edu19/robot_navigation/colcon_ws/build/drive_base_msgs/rosidl_adapter/drive_base_msgs:msg/BaseInfo.idl
+/home/edu19/robot_navigation/colcon_ws/build/drive_base_msgs/rosidl_adapter/drive_base_msgs:msg/CommandStatus.idl
+/home/edu19/robot_navigation/colcon_ws/build/drive_base_msgs/rosidl_adapter/drive_base_msgs:msg/TRVCommand.idl

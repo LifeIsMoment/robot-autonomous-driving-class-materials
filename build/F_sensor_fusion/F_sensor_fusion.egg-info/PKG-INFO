@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: F-sensor-fusion
+Version: 0.0.0
+Summary: EKF sensor fusion and SLAM launch for TurtleBot3
+Maintainer: edu19
+Maintainer-email: edu19@todo.todo
+License: TODO: License declaration

@@ -1,0 +1,21 @@
+[3.107s] Invoking command in '/home/edu19/robot_navigation/colcon_ws/src/D_motion': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/build/D_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu19/robot_navigation/colcon_ws/install/D_motion/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/D_motion build --build-base /home/edu19/robot_navigation/colcon_ws/build/D_motion/build install --record /home/edu19/robot_navigation/colcon_ws/build/D_motion/install.log --install-scripts $base/lib/D_motion --single-version-externally-managed install_data
+[3.717s] running egg_info
+[3.753s] writing ../../build/D_motion/D_motion.egg-info/PKG-INFO
+[3.753s] writing dependency_links to ../../build/D_motion/D_motion.egg-info/dependency_links.txt
+[3.758s] writing entry points to ../../build/D_motion/D_motion.egg-info/entry_points.txt
+[3.758s] writing requirements to ../../build/D_motion/D_motion.egg-info/requires.txt
+[3.758s] writing top-level names to ../../build/D_motion/D_motion.egg-info/top_level.txt
+[3.837s] reading manifest file '../../build/D_motion/D_motion.egg-info/SOURCES.txt'
+[3.841s] writing manifest file '../../build/D_motion/D_motion.egg-info/SOURCES.txt'
+[3.841s] running build
+[3.841s] running build_py
+[3.842s] running install
+[3.857s] running install_lib
+[3.904s] running install_data
+[3.905s] running install_egg_info
+[3.949s] removing '/home/edu19/robot_navigation/colcon_ws/install/D_motion/lib/python3.12/site-packages/D_motion-0.0.0-py3.12.egg-info' (and everything under it)
+[3.949s] Copying ../../build/D_motion/D_motion.egg-info to /home/edu19/robot_navigation/colcon_ws/install/D_motion/lib/python3.12/site-packages/D_motion-0.0.0-py3.12.egg-info
+[3.951s] running install_scripts
+[4.232s] Installing random_motion script to /home/edu19/robot_navigation/colcon_ws/install/D_motion/lib/D_motion
+[4.232s] writing list of installed files to '/home/edu19/robot_navigation/colcon_ws/build/D_motion/install.log'
+[4.877s] Invoked command in '/home/edu19/robot_navigation/colcon_ws/src/D_motion' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/edu19/robot_navigation/colcon_ws/build/D_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edu19/robot_navigation/colcon_ws/install/D_motion/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/D_motion build --build-base /home/edu19/robot_navigation/colcon_ws/build/D_motion/build install --record /home/edu19/robot_navigation/colcon_ws/build/D_motion/install.log --install-scripts $base/lib/D_motion --single-version-externally-managed install_data
