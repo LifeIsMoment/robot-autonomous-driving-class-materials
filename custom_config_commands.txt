@@ -1,0 +1,11 @@
+cd ~/robot_navigation/colcon_ws/src/G_custom_config
+mkdir launch config models
+
+cp ~/robot_navigation/colcon_ws/src/E_gazebo/launch/my_world.launch.py launch/
+cp /opt/ros/jazzy/share/slam_toolbox/launch/online_async_launch.py launch/
+cp /opt/ros/jazzy/share/turtlebot3_gazebo/launch/spawn_turtlebot3.launch.py launch/
+
+cp /opt/ros/jazzy/share/slam_toolbox/config/mapper_params_online_async.yaml config/
+cp /opt/ros/jazzy/share/turtlebot3_gazebo/params/turtlebot3_burger_bridge.yaml config/
+
+cp -r /opt/ros/jazzy/share/turtlebot3_gazebo/models/turtlebot3_burger models/
